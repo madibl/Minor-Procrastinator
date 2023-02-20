@@ -1,0 +1,105 @@
+html{
+    background:rgb(#e3e289);
+    font-family: 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+body{
+    background-color: rgb(#ecd9a1);
+    width: 800px;
+    margin: 0 auto;
+    border: 8px solid rgb(255, 255, 255);
+    padding: 0 20px 20px 20px
+
+
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.bttn1 {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.bttn2 {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.bttn3 {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+.bttn4 {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align:center;
+}
+
+li {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+}
+
+.bold{
+    font-weight: bold;
+
+
+}
+
+p.bold{
+    text-decoration:underline;
+}
+
+li.bold{
+
+    font-style:italic;
+
+}
+
+#plug {
+    color:rgb(91, 5, 51)
+
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.buto {
+    text-align: center
+}

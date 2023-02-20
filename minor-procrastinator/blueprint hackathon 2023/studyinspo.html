@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" type = "text/css" href="studyinspo.css"/>
+    <title>study inspo</title>
+</head>
+
+<body>
+    <!-- <div class = "btt">
+        <button id = "home" onclick="window.location.href='c:\\Users\\ltstr\\Desktop\\blueprint hackathon 2023\\index.html'">home</button>
+    </div> -->
+    
+    <div>
+        <h1 id="mpheading">study inspiration!</h1>
+    </div>
+    <div>
+        <p id="jspp">master procrastinator? we've got you covered.</p>
+    </div>
+
+    <div>
+        <p id="jspp">once you are feeling ready to study, return to the work page through the home button!</p>
+    </div>
+
+    <div>                   
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0fCfVS?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <div>
+        <p id="jspp">feeling pumped? make a to-do list!</p>
+    </div>
+    <h2>my to-do list</h2>
+
+    
+    <input type="text"><button>add</button>
+    <ul>
+    </ul>
+    <script>
+        function addToList(content) {
+            let itemElm = document.createElement("li");
+            itemElm.textContent = content;
+            let listElm = document.querySelector("ul");
+            listElm.appendChild(itemElm);
+        }
+        function getUserItem(){
+            let inputElm = document.querySelector("input");
+            
+            if (inputElm.value) {
+            addToList(inputElm.value);
+            }
+            else{
+            alert("you can't add a blank item to the list!");
+
+            }
+            inputElm.value = ""; //clear the input box
+        }
+        let buttonElm = document.querySelector("button");
+        buttonElm.addEventListener("click", getUserItem);
+    </script>
+</body>
+
+</html>

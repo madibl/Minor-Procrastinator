@@ -1,0 +1,54 @@
+
+html{
+    background:rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+
+
+}
+p {
+    background: rgb(#E8B9AB);
+    font-size:18px;
+    line-height:3;
+    letter-spacing:3px;
+    text-align: center;
+}
+
+li {
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+}
+
+.bold{
+    font-weight: bold;
+
+
+}
+
+p.bold{
+    text-decoration:underline;
+}
+
+li.bold{
+
+    font-style:italic;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    image-rendering: pixelated;
+}
+
+.buttonco {
+    background-color: whitesmoke;
+    font-size:18px;
+    line-height:2;
+    letter-spacing:3px;
+    text-align: center
+}
+.button {
+    background-color: aliceblue;
+    border-radius: 20%;
+}
